@@ -83,3 +83,24 @@ button {
     align-self: stretch;
     width: 100%;
 }
+
+.box {
+    border-radius: 5px;
+    width: 130px;
+    height: 130px;
+    border: 2px solid #3882f6;
+    color: #f9faf8;
+    margin: 10px auto;
+}
+
+section h1 {
+    text-align: center;
+}
+
+.mid-images {
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 20% 30px;
+}
