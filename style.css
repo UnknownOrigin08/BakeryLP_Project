@@ -97,10 +97,18 @@ section h1 {
     text-align: center;
 }
 
+section p {
+    text-align: center;
+}
+
 .mid-images {
     font-size: 14px;
     text-align: center;
     justify-content: center;
     gap: 20px;
     padding: 10px 20% 30px;
+}
+
+.lower-hlf-cupcakes {
+    mask-image: linear-gradient(90deg, black 30%, transparent 100%);
 }
