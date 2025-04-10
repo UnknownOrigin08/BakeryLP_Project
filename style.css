@@ -2,6 +2,7 @@
 
 body {
     font-family: 'NTR', 'Roboto', 'slab';
+    background: linear-gradient(90deg, #befff1, #FFFFFF, #E5F2FF);
 }
 
 * {
@@ -34,6 +35,7 @@ body {
 
 ul {
     margin-left: auto;
+    font-weight: bold;
 }
 
 .flex-test {
@@ -88,16 +90,20 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #454a52;
+    /* background-color: #454a52; */
     align-self: stretch;
     width: 100%;
 }
 
-.box {
+.Main-img {
     border-radius: 5px;
-    width: 130px;
-    height: 130px;
-    border: 2px solid #3882f6;
+}
+
+.main-imgs {
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+    /* border: 2px solid #3882f6; */
     color: #f9faf8;
     margin: 10px auto;
 }
@@ -128,4 +134,16 @@ section p {
 
 .pgraph-and-bttn-container {
     margin-right: auto;
+    margin-bottom: auto;
+}
+
+li:hover,
+button:hover {
+    cursor: pointer;
+}
+
+footer {
+    background-color: lightgreen;
+    text-align: center;
+    font-weight: bolder;
 }
